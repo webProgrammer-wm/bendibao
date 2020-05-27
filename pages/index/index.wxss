@@ -1,0 +1,76 @@
+swiper {
+    height: 100%;
+}
+
+.slide {
+    width: 100%;
+    height: 390rpx;
+    overflow: hidden;
+}
+
+.slide image {
+    width: 100%;
+    height: 390rpx;
+}
+
+.index-nav image {
+    width: 80rpx;
+    height: 80rpx;
+}
+
+.index-nav {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 10px solid #f5f5f5;
+}
+
+.index-nav text {
+    padding-top: 20rpx;
+}
+
+.index-nav .nav-item {
+    position: relative;
+    width: 33.3333%;
+    height: 200rpx;
+    /* border-right: 1rpx solid #eee; */
+    background-color: #FFF;
+    border-bottom: 1rpx solid #eee;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* 微信小程序的字号大小官方推荐使用px */
+    font-size: 14px;
+}
+
+.index-nav .nav-item::after {
+    content: "";
+    width: 1rpx;
+    height: 100%;
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.index-nav .nav-item:nth-child(3n)::after {
+   width: 0;
+}
+
+
+.index-enter {
+    display: flex;
+    padding: 20rpx 25rpx;
+}
+
+.index-enter image {
+    width: 320rpx;
+    height: 178rpx;
+}
+
+.index-enter .enter-item {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+.card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border-radius: 20rpx;
+    margin: 40rpx 20rpx;
+    padding: 30rpx 30rpx;
+}
+
+.card image {
+    width: 100%;
+    height: 380rpx;
+}
+
+.card .card-title {
+    font-size: 18px;
+    margin-bottom: 20rpx;
+    font-weight: bold;
+}
+
+.card .card-date {
+    color: #ccc;
+    margin-top: 5rpx;
+    margin-bottom: 20rpx;
+    padding-bottom: 10rpx;
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.card .card-desc {
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+    margin-top: 10rpx;
+    margin-bottom: 20rpx;
+    padding-bottom: 10rpx;
+}
+
+.card .card-read {
+    font-size: 14px;
+    color: #666;
+    
+}

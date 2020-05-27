@@ -1,0 +1,18 @@
+.avatar {
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding-top: 70rpx;
+    padding-bottom: 70rpx;
+}
+
+.avatar image {
+    width: 220rpx;
+    height: 220rpx;
+    border-radius: 50%;
+    border: 7rpx solid rgba(0, 0, 0, .1);
+}
+
+.cell {
+    background-color: #fff;
+}

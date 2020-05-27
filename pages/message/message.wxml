@@ -1,0 +1,23 @@
+<view class="card">
+    <text class="card-title">标题111</text>
+    <text class="card-date">2017-12-01</text>
+    <image src="/assets/images/D.va.jpg"></image>
+    <text class="card-desc">我舔~</text>
+    <text class="card-read arrow">查看详情</text>
+</view>
+
+<view class="card">
+    <text class="card-title">标题111</text>
+    <text class="card-date">2017-12-01</text>
+    <image src="/assets/images/D.va.jpg"></image>
+    <text class="card-desc">我舔~</text>
+    <text class="card-read arrow">查看详情</text>
+</view>
+
+<view class="card">
+    <text class="card-title">标题111</text>
+    <text class="card-date">2017-12-01</text>
+    <image src="/assets/images/D.va.jpg"></image>
+    <text class="card-desc">我舔~</text>
+    <text class="card-read arrow">查看详情</text>
+</view>
