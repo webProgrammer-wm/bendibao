@@ -1,4 +1,43 @@
-<view class="shop">
-    <image />
-    
+<view class="shop-list">
+    <view class="shop-item">
+        <image mode="aspectFill" src="/assets/images/D.va.jpg"></image>
+        <view class="shop-info">
+            <text class="name">卡巴迪纳新派餐厅</text>
+            <text>电话：400-8899</text>
+            <text>地址：赣州市****</text>
+            <text>营业时间：9:00-24:00</text>
+        </view>
+        <view class="shop-star">
+            <view class="star-after">★★★★★</view>
+            <view class="star-before">★★★★★</view>
+        </view>  
+    </view>
+
+     <view class="shop-item">
+        <image mode="aspectFill" src="/assets/images/D.va.jpg"></image>
+        <view class="shop-info">
+            <text class="name">卡巴迪纳新派餐厅</text>
+            <text>电话：400-8899</text>
+            <text>地址：赣州市****</text>
+            <text>营业时间：9:00-24:00</text>
+        </view>
+        <view class="shop-star">
+            <view class="star-after">★★★★★</view>
+            <view class="star-before" style="width:50%;">★★★★★</view>
+        </view>
+    </view>
+
+     <view class="shop-item">
+        <image mode="aspectFill" src="/assets/images/D.va.jpg"></image>
+        <view class="shop-info">
+            <text class="name">卡巴迪纳新派餐厅</text>
+            <text>电话：400-8899</text>
+            <text>地址：赣州市****</text>
+            <text>营业时间：9:00-24:00</text>
+        </view>
+        <view class="shop-star">
+            <view class="star-after">★★★★★</view>
+            <view class="star-before" style="width:20%;">★★★★★</view>
+        </view>  
+    </view>
 </view>
